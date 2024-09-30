@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    html{
+        @apply font-poppins 
+    }
+}
+
+@layer utilities{
+    .drop-shadow{
+        filter: drop-shadow(-6px 8px 15px rgba(0,0,0,0.1));
+    }
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.bg-custom:nth-child(1):hover {
+  background: linear-gradient(45deg, rgba(22,163,74,0.8) 0%, rgba(22,163,74,0.9) 100%),
+              url('/battery.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position:center;
+}
+.bg-custom:nth-child(2):hover {
+    background: linear-gradient(45deg, rgba(22,163,74,0.8) 0%, rgba(22,163,74,0.9) 100%),
+                url('/charging.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+  }
+  .bg-custom:nth-child(3):hover {
+    background: linear-gradient(45deg, rgba(22,163,74,0.8) 0%, rgba(22,163,74,0.9) 100%),
+                url('/car.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+  }
+  .bg-custom:nth-child(4):hover {
+    background: linear-gradient(45deg, rgba(22,163,74,0.8) 0%, rgba(22,163,74,0.9) 100%),
+                url('/ups.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+  }
+
+.input-style{
+    @apply px-2 py-1 outline-none border-b-[3px] border-slate-300 rounded bg-transparent
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
