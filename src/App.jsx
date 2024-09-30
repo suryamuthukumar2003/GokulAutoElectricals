@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Appbar from './components/Appbar'
 import Hero from './components/Hero'
 import Banner from './components/Banner'
@@ -10,6 +10,7 @@ import Faq from './components/Faq'
 import ServiceSection from './components/ServiceSection'
 import GReviews from './components/GReviews'
 function App() {
+  
   return (
     <>
     <main>

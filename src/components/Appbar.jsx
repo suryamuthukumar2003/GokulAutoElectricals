@@ -27,6 +27,7 @@ function Appbar() {
       const section = document.getElementById(sectionId);
       if (section) {
         section.scrollIntoView({ behavior: 'smooth' });
+        window.history.replaceState(null,null,'/');
       }
     }
   }, []);
