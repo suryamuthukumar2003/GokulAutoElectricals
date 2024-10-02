@@ -28,17 +28,17 @@ export const faq=[{
 export const service=[{
     icon:BatteryIcon,
     service:'Battery Sales',
-    serviceDesc:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum dolor pariatur, distinctio eaque suscipit necessitatibus magnam dolores corrupti tempora possimus.'
+    serviceDesc:'We are proud to be an authorized dealer of Amaron batteries, recognized for their zero-maintenance design and exceptional performance.'
 },{
     icon:ChargerIcon,
     service:'Battery Charging',
-    serviceDesc:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum dolor pariatur, distinctio eaque suscipit necessitatibus magnam dolores corrupti tempora possimus.'
+    serviceDesc:'Charging Methods are Includes constant voltage, constant current, and pulse charging for different battery types. Maintains battery health for vehicles that aren’t used frequently by Trickle Charging'
 },{
     icon:ServiceIcon,
     service:'Self Motor, Alternator, Horn Service',
-    serviceDesc:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum dolor pariatur, distinctio eaque suscipit necessitatibus magnam dolores corrupti tempora possimus.'
+    serviceDesc:'We diagnose, fix, or replace faulty alternators and self motor to prevent electrical issues and battery drain. Personalized horn installations that meet safety regulations.'
 },{
     icon:Inverter,
     service:'UPS & Inverter Batteries',
-    serviceDesc:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum dolor pariatur, distinctio eaque suscipit necessitatibus magnam dolores corrupti tempora possimus.'
+    serviceDesc:'High-quality batteries for reliable backup power during outages. Long-lasting inverter batteries with installation and maintenance services. Timely replacements for aging UPS and inverter batteries.'
 }];

@@ -11,7 +11,7 @@ function ResponsiveMenu(props) {
     <AnimatePresence mode='wait'>
         {
             (props.open) && (
-                <div className='fixed top-0 left-0 w-full h-dvh overflow-hidden z-50 md:hidden bg-slate-700/70'>
+                <div className='fixed top-0 left-0 w-full h-screen overflow-hidden z-50 md:hidden bg-slate-700/70'>
                 <motion.div
                 initial={{opacity:0,x:-100}}
                 animate={{opacity:1,x:0}}

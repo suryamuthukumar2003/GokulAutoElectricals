@@ -12,7 +12,7 @@ function Banner() {
         <div className='place-content-center'>
             <div>
                 <h1 className='text-4xl font-semibold uppercase leading-relaxed'>About</h1>
-                <p className='text-slate-600 text-justify lg:text-lg'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime consectetur placeat tempore distinctio possimus? Non, earum laudantium dolorum neque aliquid maxime odit rerum obcaecati qui, facilis tempore repellat consequuntur dolor? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, aut?</p>
+                <p className='text-slate-600 lg:text-md'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime consectetur placeat tempore distinctio possimus? Non, earum laudantium dolorum neque aliquid maxime odit rerum obcaecati qui, facilis tempore repellat consequuntur dolor? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, aut?</p>
             </div>
         </div>
         </div>

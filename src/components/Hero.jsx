@@ -6,7 +6,7 @@ function Hero() {
         <div className='container grid grid-cols-1 md:grid-cols-2 min-h-[600px] gap-5 lg:gap-0'>
             {/* Brand info */}
             <div className='flex flex-col justify-center py-3 md:py-0 w-full'>
-                <div className='text-center md:text-left space-y-6 lg:max-w-[500px] flex flex-col'>
+                <div className='text-center md:text-left space-y-6 lg:max-w-[450px] flex flex-col'>
                     <h1 className='text-3xl lg:text-4xl font-bold leading-relaxed xl:leading-loose'>Power Your Journey
                       <br />
                     with <span className='text-green-600'> Amaron Batteries</span></h1>
