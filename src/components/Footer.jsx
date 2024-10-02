@@ -21,7 +21,7 @@ function Footer() {
               <li className='flex space-x-1 items-start'><span className='w-11/12 lg:w-11/12'>171-1, Nanjundapuram Rd, Ramanathapuram, Coimbatore-641045</span></li>
               <li className='flex space-x-1'><span>+91 9842296867</span></li>
               <li className='flex space-x-1'><span>+91 6385596867</span></li>
-              <li className='flex space-x-1'><span>abc@gmail.com</span></li>
+              <li className='flex space-x-1'><span>muthukumarmgae@gmail.com</span></li>
             </ul>
           </div>
           <div className=''>

@@ -12,7 +12,7 @@ function Banner() {
         <div className='place-content-center'>
             <div>
                 <h1 className='text-4xl font-semibold uppercase leading-relaxed'>About</h1>
-                <p className='text-slate-600 lg:text-md'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime consectetur placeat tempore distinctio possimus? Non, earum laudantium dolorum neque aliquid maxime odit rerum obcaecati qui, facilis tempore repellat consequuntur dolor? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, aut?</p>
+                <p className='text-slate-600 text-justify word-spacing lg:text-md'>For over 20 years, Gokul Auto Electricals has been a trusted provider of high-quality automotive electrical components and services. Specializing in alternators, self motors, and more, we pride ourselves on delivering reliable, cost-effective solutions that keep vehicles and homes running smoothly. With a skilled technician and a commitment to customer satisfaction, we ensure precision and performance in every service.</p>
             </div>
         </div>
         </div>
