@@ -53,9 +53,6 @@ html{
     @apply px-2 py-1 outline-none border-b-[3px] border-slate-300 rounded bg-transparent
 }
 
-.word-spacing{
-  word-spacing: -2px;
-}
 
 body::-webkit-scrollbar {
   display: none;

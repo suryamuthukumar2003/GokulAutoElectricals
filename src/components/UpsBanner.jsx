@@ -7,7 +7,7 @@ function UpsBanner() {
             <div className='place-content-center flex flex-col space-y-4'>
                 <h1 className='text-3xl xl:text-4xl font-semibold text-white'>Never Let a Power Cut Slow You Down</h1>
                 {/* <h2 className='text-2xl xl:text-3xl text-white'>Reliable UPS and Inverter Solutions!</h2> */}
-                <p className='text-md text-white text-justify word-spacing'>We offer reliable UPS and inverter solutions to ensure you never face downtime during power outages. Our high-quality batteries provide seamless backup, keeping your home and office running smoothly. Trust us for expert installation and maintenance.</p>
+                <p className='text-md text-white'>We offer reliable UPS and inverter solutions to ensure you never face downtime during power outages. Our high-quality batteries provide seamless backup, keeping your home and office running smoothly. Trust us for expert installation and maintenance.</p>
             </div>
             <div className='flex justify-center'>
             <img src="../AmaronBattery.png" alt=""  className='object-contain lg:object-cover drop-shadow-2xl'/>
