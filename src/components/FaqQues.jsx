@@ -1,9 +1,6 @@
 import { ChevronDown } from 'lucide-react';
 import React, { useState } from 'react'
 import { motion,AnimatePresence } from 'framer-motion';
-import Gpay from '../assets/gpay.png';
-import PhonePe from '../assets/phonepe.png';
-
 function FaqQues({data}) {
     const[open,setOpen]=useState(false);
   return (
