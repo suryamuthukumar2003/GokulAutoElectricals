@@ -10,7 +10,7 @@ function UpsBanner() {
                 <p className='text-md text-white'>We offer reliable UPS and inverter solutions to ensure you never face downtime during power outages. Our high-quality batteries provide seamless backup, keeping your home and office running smoothly. Trust us for expert installation and maintenance.</p>
             </div>
             <div className='flex justify-center'>
-            <img src="../AmaronBattery.png" alt=""  className='object-contain lg:object-cover drop-shadow-2xl'/>
+            <img src="https://res.cloudinary.com/dmtafuh5c/image/upload/v1728196375/AmaronBattery_yrsea8.png" alt=""  className='object-contain lg:object-cover drop-shadow-2xl'/>
             </div>
         </div>
     </section>

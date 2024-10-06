@@ -28,7 +28,7 @@ export const faq=[{
 export const service=[{
     icon:BatteryIcon,
     service:'Battery Sales',
-    serviceDesc:'We are proud to be an authorized dealer of Amaron batteries, recognized for their zero-maintenance design and exceptional performance.'
+    serviceDesc:'We are proud to be an authorized dealer of Amaron batteries and others, recognized for their zero-maintenance design and exceptional performance.'
 },{
     icon:ChargerIcon,
     service:'Battery Charging',

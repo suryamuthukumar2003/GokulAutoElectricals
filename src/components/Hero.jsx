@@ -24,7 +24,7 @@ function Hero() {
             </div>
             {/* Hero Image */}
             <div className='place-self-center md:place-content-start'>
-              <img src="../Banner.png" alt="" className='object-cover'/>
+              <img src="https://res.cloudinary.com/dmtafuh5c/image/upload/v1727952057/Banner_nhysbd.png" alt="" className='object-cover'/>
             </div>
         </div>
     </section>

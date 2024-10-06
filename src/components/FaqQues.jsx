@@ -26,8 +26,8 @@ function FaqQues({data}) {
               <p className='w-[99%] text-slate-700'>{data.ans}</p>
               {data.imgDisplay && (
                 <div className='self-start flex justify-center items-center'>
-                <img src={Gpay} alt="" className='w-[50px] h-[50px]'/>
-                <img src={PhonePe} alt="" className='w-[100px]'/>
+                <img src={"https://res.cloudinary.com/dmtafuh5c/image/upload/v1728196417/gpay_voqd1r.webp"} alt="" className='w-[50px] h-[50px]'/>
+                <img src={"https://res.cloudinary.com/dmtafuh5c/image/upload/v1728196418/phonepe_odrthb.png"} alt="" className='w-[100px]'/>
                 </div>
               )}
             </div>
