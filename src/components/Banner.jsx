@@ -7,7 +7,7 @@ function Banner() {
             {/* Banner image */}
             <div className='place-content-center p-3 hidden md:block'>
 
-            <img src="https://res.cloudinary.com/dmtafuh5c/image/upload/v1728196403/About_iviauc.png" className='w-4/5 h-full object-cover' alt="" />
+            <img src="https://res.cloudinary.com/dmtafuh5c/image/upload/v1728196403/photos/About_iviauc.png" className='w-4/5 h-full object-cover' alt="" />
             </div>
         <div className='place-content-center'>
             <div>

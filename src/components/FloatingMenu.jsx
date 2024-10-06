@@ -1,7 +1,6 @@
 import { motion,AnimatePresence } from 'framer-motion';
 import { MapPin, Phone,Plus } from 'lucide-react';
 import React, { useEffect, useRef, useState } from 'react'
-import WhatsappIcon from '../assets/whatsapp.png'
 function Menu(props){
     
     return(
@@ -19,7 +18,7 @@ function Menu(props){
                             <li className='cursor-pointer' title='call dial'><a href="tel:9842296867"><Phone/></a></li>
                             <li className='cursor-pointer' title='location'><a href="https://www.google.co.in/maps/dir//Gokul+Auto+Electricals,+171-1,+Nanjundapuram+Rd,+Ramanathapuram,+Coimbatore,+Tamil+Nadu+641045/@10.9938909,76.9945945,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3ba859e81eaae225:0xef205b39e80119f!2m2!1d76.9978519!2d10.9926802?entry=ttu" target='_blank'><MapPin />
                             </a></li>
-                            <li className='cursor-pointer' title='whatsapp'><a href="https://wa.me/919842296867" target='blank'><img src={WhatsappIcon} alt="afsgbd" className='w-[40px] h-[40px]' /></a></li>
+                            <li className='cursor-pointer' title='whatsapp'><a href="https://wa.me/919842296867" target='blank'><img src={"https://res.cloudinary.com/dmtafuh5c/image/upload/v1728196418/photos/whatsapp_rfhpo3.png"} alt="afsgbd" className='w-[40px] h-[40px]' /></a></li>
                         </ul>
                     </div>
                 </motion.div>

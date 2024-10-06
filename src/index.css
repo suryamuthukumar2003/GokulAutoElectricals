@@ -22,28 +22,28 @@ html{
 
 .bg-custom:nth-child(1):hover {
   background: linear-gradient(45deg, rgba(22,163,74,0.8) 0%, rgba(22,163,74,0.9) 100%),
-              url('https://res.cloudinary.com/dmtafuh5c/image/upload/v1728196391/battery_hwfznv.png');
+              url('https://res.cloudinary.com/dmtafuh5c/image/upload/v1728196391/photos/battery_hwfznv.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position:center;
 }
 .bg-custom:nth-child(2):hover {
     background: linear-gradient(45deg, rgba(22,163,74,0.8) 0%, rgba(22,163,74,0.9) 100%),
-                url('https://res.cloudinary.com/dmtafuh5c/image/upload/v1728196392/charging_utfukc.jpg');
+                url('https://res.cloudinary.com/dmtafuh5c/image/upload/v1728196392/photos/charging_utfukc.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position:center;
   }
   .bg-custom:nth-child(3):hover {
     background: linear-gradient(45deg, rgba(22,163,74,0.8) 0%, rgba(22,163,74,0.9) 100%),
-                url('https://res.cloudinary.com/dmtafuh5c/image/upload/v1728196392/car_cbaxop.jpg');
+                url('https://res.cloudinary.com/dmtafuh5c/image/upload/v1728196392/photos/car_cbaxop.jpg');
     background-size:cover;
     background-repeat: no-repeat;
     background-position:center;
   }
   .bg-custom:nth-child(4):hover {
     background: linear-gradient(45deg, rgba(22,163,74,0.8) 0%, rgba(22,163,74,0.9) 100%),
-                url('https://res.cloudinary.com/dmtafuh5c/image/upload/v1728196392/ups_jth3ez.jpg');
+                url('https://res.cloudinary.com/dmtafuh5c/image/upload/v1728196392/photos/ups_jth3ez.jpg');
     background-size:cover;
     background-repeat: no-repeat;
     background-position:center;
