@@ -31,7 +31,6 @@ function App() {
       <Banner/> 
       <FloatingMenu/>
       <ScrollBackButton/>
-      <Review/>
       <Faq/>
       <Footer/>
     </main>
