@@ -8,7 +8,6 @@ import UpsBanner from './components/UpsBanner'
 import FloatingMenu from './components/FloatingMenu'
 import Faq from './components/Faq'
 import ServiceSection from './components/ServiceSection'
-import GReviews from './components/GReviews'
 import Loader from './components/Loader'
 function App() {
   const [isLoading,setIsLoading]=useState(true);
@@ -31,7 +30,6 @@ function App() {
       <Banner/> 
       <FloatingMenu/>
       <ScrollBackButton/>
-      <GReviews/>
       <Faq/>
       <Footer/>
     </main>
