@@ -13,3 +13,5 @@ function GReviews() {
 }
 
 export default GReviews;
+
+document.getElementsByClassName('es-branding-container').style.display = "none";

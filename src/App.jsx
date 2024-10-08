@@ -9,6 +9,7 @@ import FloatingMenu from './components/FloatingMenu'
 import Faq from './components/Faq'
 import ServiceSection from './components/ServiceSection'
 import Loader from './components/Loader'
+import Review from './components/Review'
 function App() {
   const [isLoading,setIsLoading]=useState(true);
   useEffect(()=>{
@@ -30,6 +31,7 @@ function App() {
       <Banner/> 
       <FloatingMenu/>
       <ScrollBackButton/>
+      <Review/>
       <Faq/>
       <Footer/>
     </main>
