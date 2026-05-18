@@ -14,7 +14,7 @@ import ScrollBackBtn   from './components/ScrollBackBtn'
 import Loader          from './components/Loader'
 
 export default function App() {
-  const [dark,    setDark]    = useState(true)
+  const [dark,    setDark]    = useState(false)
   const [loading, setLoading] = useState(true)
 
   // apply dark class to <html>
