@@ -1,56 +1,40 @@
-import { motion,AnimatePresence } from 'framer-motion';
-import { MapPin, Phone,Plus } from 'lucide-react';
-import React, { useEffect, useRef, useState } from 'react'
-function Menu(props){
-    
-    return(
-        <AnimatePresence mode='wait'>
-            {props.isOpen && (
-                <motion.div
-                initial={{opacity:0,y:10}}
-                animate={{opacity:1,y:0}}
-                exit={{opacity:0,y:10}}
-                transition={{duration:0.3}}
-                className='fixed z-40 right-3 bottom-40'
-                >
-                    <div className='p-2 bg-white rounded-full shadow-lg'>
-                        <ul className='pt-2 flex flex-col items-center gap-4'>
-                            <li className='cursor-pointer' title='call dial'><a href="tel:9842296867"><Phone/></a></li>
-                            <li className='cursor-pointer' title='location'><a href="https://www.google.co.in/maps/dir//Gokul+Auto+Electricals,+171-1,+Nanjundapuram+Rd,+Ramanathapuram,+Coimbatore,+Tamil+Nadu+641045/@10.9938909,76.9945945,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3ba859e81eaae225:0xef205b39e80119f!2m2!1d76.9978519!2d10.9926802?entry=ttu" target='_blank'><MapPin />
-                            </a></li>
-                            <li className='cursor-pointer' title='whatsapp'><a href="https://wa.me/919842296867" target='blank'><img src={"https://res.cloudinary.com/dmtafuh5c/image/upload/v1728196418/photos/whatsapp_rfhpo3.png"} alt="afsgbd" className='w-[40px] h-[40px]' /></a></li>
-                        </ul>
-                    </div>
-                </motion.div>
-            )
-            }
-        </AnimatePresence>
-    );
-}
+import { useState, useRef, useEffect } from 'react'
+import { motion, AnimatePresence } from 'framer-motion'
+import { Plus, Phone, MapPin } from 'lucide-react'
+import { shopInfo } from '../data/data'
 
-function FloatingMenu() {
-    const[isOpen,setIsOpen]=useState(false);
-    const menuRef=useRef();
-    useEffect(()=>{
-        let handler=(e)=>{
-            if(menuRef.current && !menuRef.current.contains(e.target)){
-                setIsOpen(false);
-            }
-        };
-        document.addEventListener("mousedown",handler);
-
-        return(()=>{
-            document.removeEventListener("mousedown",handler);
-        })
-    })
+export default function FloatingMenu() {
+  const [open, setOpen] = useState(false)
+  const ref = useRef()
+  useEffect(() => {
+    const fn = e => { if (ref.current && !ref.current.contains(e.target)) setOpen(false) }
+    document.addEventListener('mousedown', fn)
+    return () => document.removeEventListener('mousedown', fn)
+  }, [])
   return (
-    <div ref={menuRef}>
-    <Menu isOpen={isOpen}/>
-    <div className={`w-[50px] h-[50px] fixed z-20 bottom-24 right-4 hover:!scale-110 duration-300 bg-green-600 p-[2px] flex justify-center items-center shadow-lg rounded-full ${isOpen ? 'rotate-45 duration-500':'duration-500'} cursor-pointer`} onClick={()=>setIsOpen((prev)=>!prev)} title={isOpen ? 'close':'menu'}>
-        <Plus color='#fff'/>
-    </div>   
+    <div ref={ref}>
+      <AnimatePresence>
+        {open && (
+          <motion.div initial={{opacity:0,y:10,scale:.9}} animate={{opacity:1,y:0,scale:1}} exit={{opacity:0,y:10,scale:.9}} transition={{duration:.22}}
+            className="fixed z-40 right-4 bottom-36 flex flex-col items-center gap-3 bg-white dark:bg-green-950 rounded-2xl p-3 border border-token shadow-2xl shadow-green-500/15">
+            <a href={shopInfo.call} title="Call" className="w-11 h-11 rounded-full grad-bg flex items-center justify-center glow hover:scale-110 transition-transform">
+              <Phone size={18} className="text-white"/>
+            </a>
+            <a href={shopInfo.mapsDir} target="_blank" rel="noreferrer" title="Directions"
+              className="w-11 h-11 rounded-full bg-gray-500 flex items-center justify-center hover:scale-110 transition-transform shadow-lg shadow-blue-500/25">
+              <MapPin size={18} className="text-white"/>
+            </a>
+            <a href={shopInfo.whatsapp} target="_blank" rel="noreferrer" title="WhatsApp"
+              className="w-11 h-11 rounded-full overflow-hidden hover:scale-110 transition-transform shadow-lg">
+              <img src="https://res.cloudinary.com/dmtafuh5c/image/upload/v1728196418/photos/whatsapp_rfhpo3.png" alt="WhatsApp" className="w-full h-full object-cover"/>
+            </a>
+          </motion.div>
+        )}
+      </AnimatePresence>
+      <button onClick={()=>setOpen(p=>!p)} title={open?'Close':'Menu'}
+        className={`fixed z-50 bottom-20 right-4 w-12 h-12 grad-bg rounded-full flex items-center justify-center shadow-lg shadow-green-500/35 glow hover:scale-110 active:scale-95 transition-all duration-300 ${open?'rotate-45':''}`}>
+        <Plus size={22} className="text-white"/>
+      </button>
     </div>
   )
 }
-
-export default FloatingMenu;
