@@ -90,7 +90,7 @@ export default function Appbar({ dark, setDark }) {
             <ul className="wrap py-3 flex flex-col gap-0.5">
               {LINKS.map(n => (
                 <li key={n.id}>
-                  <button onClick={() => { go(n.id); setOpen(false) }}
+                  <button onClick={() => { setOpen(false); setTimeout(() => go(n.id), 320) }}
                     className="w-full text-left py-3 px-2 border-b font-semibold text-sm transition-colors"
                     style={{borderColor:'var(--border)',color:'var(--tb)'}}>
                     {n.label}
