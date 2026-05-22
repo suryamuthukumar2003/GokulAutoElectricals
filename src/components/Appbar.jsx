@@ -7,7 +7,6 @@ const LINKS = [
   { label:'Services', id:'service' },
   { label:'Products', id:'products' },
   { label:'About',    id:'about' },
-  { label:'Reviews',  id:'reviews' },
   { label:'FAQ',      id:'faq' },
   { label:'Contact',  id:'contact' },
 ]
