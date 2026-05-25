@@ -11,7 +11,7 @@ const STATS = [
 
 export default function Hero() {
   return (
-    <section id="home" className="relative min-h-screen flex flex-col overflow-hidden s1 transition-colors duration-300">
+    <section id="home" className="relative flex flex-col overflow-hidden s1 transition-colors duration-300">
       <div className="absolute inset-0 grid-bg pointer-events-none" />
       <div className="absolute top-0 left-0 w-80 h-80 rounded-full blur-3xl pointer-events-none" style={{background:'rgba(34,197,94,.07)',transform:'translate(-30%,-30%)'}} />
       <div className="absolute bottom-0 right-0 w-72 h-72 rounded-full blur-3xl pointer-events-none" style={{background:'rgba(34,197,94,.06)',transform:'translate(25%,25%)'}} />
