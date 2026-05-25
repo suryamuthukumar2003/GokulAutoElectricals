@@ -22,7 +22,7 @@ export default function Hero() {
       </svg>
 
       {/* Main grid */}
-      <div className="relative z-10 flex-1 wrap pt-24 pb-16 grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+      <div className="relative z-10 flex-1 wrap pt-24 pb-16 grid grid-cols-1 sm:grid-cols-2 gap-8 items-center">
         {/* Left */}
         <div className="flex flex-col">
           <motion.div initial={{opacity:0,x:-20}} animate={{opacity:1,x:0}} transition={{duration:.6}}
