@@ -14,7 +14,7 @@ const POINTS = [
 export default function Banner() {
   return (
     <section id="about" className="py-16 s2 transition-colors duration-300">
-      <div className="wrap grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-16 items-center">
+      <div className="wrap grid grid-cols-1 sm:grid-cols-2 gap-10 lg:gap-16 items-center">
         {/* Left – image */}
         <motion.div initial={{opacity:0,x:-24}} whileInView={{opacity:1,x:0}} viewport={{once:true}}
           className="relative hidden md:block">
