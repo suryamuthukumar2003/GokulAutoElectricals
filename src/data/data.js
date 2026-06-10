@@ -30,19 +30,19 @@ export const services = [
 
 // Amaron is primary; others available for customer convenience
 export const batteries = [
-  { id: 'b1', brand: 'Amaron', name: 'Amaron Pro Rider', sub: 'Two Wheeler', price: 1380, mrp: 1514, cap: '5 Ah', warranty: '24 Months', tag: 'Bestseller', primary: true, image: 'https://res.cloudinary.com/dmtafuh5c/image/upload/v1778702231/2_Wheeler-MF5-_Front_byqnhk.png' },
-  { id: 'b2', brand: 'Amaron', name: 'Amaron Flo', sub: 'Car', price: 5130, mrp: 5455, cap: '35 Ah', warranty: '72 Months', tag: 'Most Popular', primary: true ,image:'https://res.cloudinary.com/dmtafuh5c/image/upload/v1778705056/42b20l_zygzup.png'},
-  { id: 'b3', brand: 'Amaron', name: 'Amaron Duro', sub: 'Car – ISS', price: 5000, mrp: 5600, cap: '40 Ah', warranty: '48 Months', tag: 'Most Popular', primary: true, image:'https://res.cloudinary.com/dmtafuh5c/image/upload/v1778744431/DURO_D23R_tkxahx.png'},
-  { id: 'b4', brand: 'Amaron', name: 'Amaron Hi Way', sub: 'Commercial', price: 8177, mrp: 8478, cap: '80 Ah', warranty: '42 Months', tag: null, primary: true, image:'https://res.cloudinary.com/dmtafuh5c/image/upload/v1778741786/AAM-HW-HC620D31R_0_1_rizhdo.png'},
+  { id: 'b1', brand: 'Amaron', name: 'Amaron Pro Rider', sub: 'Two Wheeler', price: "XX80", mrp: 1514, cap: '5 Ah', warranty: '24 Months', tag: 'Bestseller', primary: true, image: 'https://res.cloudinary.com/dmtafuh5c/image/upload/v1778702231/2_Wheeler-MF5-_Front_byqnhk.png' },
+  { id: 'b2', brand: 'Amaron', name: 'Amaron Flo', sub: 'Car', price: "XX30", mrp: 5455, cap: '35 Ah', warranty: '72 Months', tag: 'Most Popular', primary: true ,image:'https://res.cloudinary.com/dmtafuh5c/image/upload/v1778705056/42b20l_zygzup.png'},
+  { id: 'b3', brand: 'Amaron', name: 'Amaron Duro', sub: 'Car – ISS', price: "XX00", mrp: 5600, cap: '40 Ah', warranty: '48 Months', tag: 'Most Popular', primary: true, image:'https://res.cloudinary.com/dmtafuh5c/image/upload/v1778744431/DURO_D23R_tkxahx.png'},
+  { id: 'b4', brand: 'Amaron', name: 'Amaron Hi Way', sub: 'Commercial', price: "XX77", mrp: 8478, cap: '80 Ah', warranty: '42 Months', tag: null, primary: true, image:'https://res.cloudinary.com/dmtafuh5c/image/upload/v1778741786/AAM-HW-HC620D31R_0_1_rizhdo.png'},
   // { id: 'b5', brand: 'Exide', name: 'Exide Matrix', sub: 'Car – Sedan', price: 4599, mrp: 5500, cap: '44 Ah', warranty: '24 Months', tag: null, primary: false },
   // { id: 'b6', brand: 'SF Sonic', name: 'SF Sonic Pro Rider', sub: 'Two Wheeler', price: 1650, mrp: 1950, cap: '5 Ah', warranty: '18 Months', tag: null, primary: false },
 ]
 
 export const upsBatteries = [
-  { id: 'u1', brand: 'Amaron', name: 'Amaron Quanta 7Ah', sub: 'UPS – Small Office', price: 1000, mrp: 1100, cap: '12V/7Ah', warranty: '24 Months', tag: 'Budget', primary: true, image:'https://res.cloudinary.com/dmtafuh5c/image/upload/v1778749076/quanta7ah_jb2y6l.png' },
-  { id: 'u2', brand: 'Amaron', name: 'Amaron UPS - HB1200AP', sub: 'UPS – Medium', price: 7000, mrp: 10183, cap: '1200VA', warranty: '36 Months', tag: 'Home UPS', primary: true , image: 'https://res.cloudinary.com/dmtafuh5c/image/upload/v1778703732/ups-image_hkawop.png'},
-  { id: 'u3', brand: 'Amaron', name: 'Amaron Inverter 150Ah', sub: 'Home Inverter', price: 13500, mrp: 16866 , cap: '12V/150Ah', warranty: '60 Months', tag: 'Home Power', primary: true , image:'https://res.cloudinary.com/dmtafuh5c/image/upload/v1778746357/tubular-150ah_1_pjn8nj.png'},
-  { id: 'u4', brand: 'Tata', name: 'Tata Switch On Inverter 150Ah', sub: 'Home Inverter', price: 13000, mrp: 17693, cap: '12V/150Ah', warranty: '72 Months', tag: null, primary: false , image:'https://res.cloudinary.com/dmtafuh5c/image/upload/v1778705686/TataGreen-SwitchOn_150ah_oncxhr.png'},
+  { id: 'u1', brand: 'Amaron', name: 'Amaron Quanta 7Ah', sub: 'UPS – Small Office', price: "XX00", mrp: 1100, cap: '12V/7Ah', warranty: '24 Months', tag: 'Budget', primary: true, image:'https://res.cloudinary.com/dmtafuh5c/image/upload/v1778749076/quanta7ah_jb2y6l.png' },
+  { id: 'u2', brand: 'Amaron', name: 'Amaron UPS - HB1200AP', sub: 'UPS – Medium', price: "XX00", mrp: 10183, cap: '1200VA', warranty: '36 Months', tag: 'Home UPS', primary: true , image: 'https://res.cloudinary.com/dmtafuh5c/image/upload/v1778703732/ups-image_hkawop.png'},
+  { id: 'u3', brand: 'Amaron', name: 'Amaron Inverter 150Ah', sub: 'Home Inverter', price: "XX500", mrp: 16866 , cap: '12V/150Ah', warranty: '60 Months', tag: 'Home Power', primary: true , image:'https://res.cloudinary.com/dmtafuh5c/image/upload/v1778746357/tubular-150ah_1_pjn8nj.png'},
+  { id: 'u4', brand: 'Tata', name: 'Tata Switch On Inverter 150Ah', sub: 'Home Inverter', price: "XX000", mrp: 17693, cap: '12V/150Ah', warranty: '72 Months', tag: null, primary: false , image:'https://res.cloudinary.com/dmtafuh5c/image/upload/v1778705686/TataGreen-SwitchOn_150ah_oncxhr.png'},
 ]
 
 export const brands = [

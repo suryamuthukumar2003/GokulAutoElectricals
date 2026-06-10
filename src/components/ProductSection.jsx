@@ -95,9 +95,9 @@ function ProductCard({ item, isUps, index }) {
             {item.tag}
           </span>
         )}
-        <span className="absolute top-3 right-3 z-20 text-[10px] font-bold bg-black/60 text-green-400 border border-green-500/30 px-2 py-0.5 rounded-full">
+        {/* <span className="absolute top-3 right-3 z-20 text-[10px] font-bold bg-black/60 text-green-400 border border-green-500/30 px-2 py-0.5 rounded-full">
           -{disc}%
-        </span>
+        </span> */}
         {!item.primary && (
           <div className="absolute bottom-2 left-2 z-20 flex items-center gap-1 bg-black/50 text-[9px] text-green-300 px-1.5 py-0.5 rounded-full">
             <Info size={8} /> On request
@@ -127,7 +127,7 @@ function ProductCard({ item, isUps, index }) {
 
         <div className="flex items-baseline gap-2 mb-4">
           <span className="text-2xl font-black" style={{ color: 'var(--th)' }}>
-            ₹{item.price.toLocaleString('en-IN')}
+            ₹{item.price}
           </span>
           <span className="line-through text-sm" style={{ color: 'var(--tb)' }}>
             ₹{item.mrp.toLocaleString('en-IN')}
